@@ -59,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppinsbold"
-        android:text="New & Popular"
+        android:text="New &amp; Popular"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
