@@ -19,6 +19,18 @@
             android:name=".EditProfileActivity"
             android:exported="false" />
         <activity
+            android:name=".ArtikelEdukasi2"
+            android:exported="false" />
+        <activity
+            android:name=".MarketPlaceKeranjangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArtikelEdukasi1"
+            android:exported="false" />
+        <activity
+            android:name=".Edukasi"
+            android:exported="false" />
+        <activity
             android:name=".MarketPlaceBerandaActivity"
             android:exported="false" />
         <activity
