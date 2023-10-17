@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Pitstop"
         tools:targetApi="31">
         <activity
+            android:name=".PickUp3"
+            android:exported="false" />
+        <activity
+            android:name=".PickUp2"
+            android:exported="false" />
+        <activity
+            android:name=".Pick_Up_Home"
+            android:exported="false" />
+        <activity
+            android:name=".PickUp1"
+            android:exported="false" />
+        <activity
             android:name=".Homepage"
             android:exported="false" />
         <activity
