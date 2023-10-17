@@ -354,7 +354,7 @@
         android:id="@+id/imageView5"
         android:layout_width="438dp"
         android:layout_height="307dp"
-        android:layout_marginTop="548dp"
+        android:layout_marginTop="544dp"
         android:src="@drawable/coverbanner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
@@ -448,12 +448,12 @@
         android:id="@+id/button4"
         android:layout_width="38dp"
         android:layout_height="38dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="44dp"
         android:background="@drawable/communitynav"
         android:elevation="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintHorizontal_bias="0.659"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button

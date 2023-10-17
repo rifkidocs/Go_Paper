@@ -31,7 +31,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                 val bundle = Bundle()
                 bundle.putString("email", etEmail.text.toString())
 
-                val intent = Intent(this@LoginActivity, Homepage::class.java)
+                val intent = Intent(this@LoginActivity, MainActivity::class.java)
                 intent.putExtras(bundle)
                 startActivity(intent)
             }

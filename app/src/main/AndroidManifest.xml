@@ -19,7 +19,57 @@
             android:name=".TambahBarangActivity"
             android:exported="false" />
         <activity
-            android:name=".TokokuActivity"
+            android:name=".CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UlasanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BeliActivity"
+            android:exported="false"
+            android:label="@string/title_activity_beli"
+            android:theme="@style/Theme.Pitstop" />
+        <activity
+            android:name=".ArtikelEdukasi3"
+            android:exported="false" />
+        <activity
+            android:name=".TipsTrick"
+            android:exported="false" />
+        <activity
+            android:name=".DetailKegiatan"
+            android:exported="false" />
+        <activity
+            android:name=".Kegiatan"
+            android:exported="false" />
+        <activity
+            android:name=".Umum"
+            android:exported="false" />
+        <activity
+            android:name=".Community"
+            android:exported="false" />
+        <activity
+            android:name=".PickUp3"
+            android:exported="false" />
+        <activity
+            android:name=".PickUp1"
+            android:exported="false" />
+        <activity
+            android:name=".MarketPlacePesananSelesai"
+            android:exported="false" />
+        <activity
+            android:name=".PickUp2"
+            android:exported="false" />
+        <activity
+            android:name=".Pick_Up_Home"
+            android:exported="false" />
+        <activity
+            android:name=".MarketplaceChatPenjualdanPembeli"
+            android:exported="false" />
+        <activity
+            android:name=".MarketplaceProfileTokoOrang"
             android:exported="false" />
         <activity
             android:name=".NotifikasiActivity"
@@ -71,7 +121,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

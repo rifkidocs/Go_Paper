@@ -35,13 +35,13 @@
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="104dp"
+            android:layout_marginTop="28dp"
             android:fontFamily="@font/poppinsreguler"
             android:text="Email"
             android:textColor="#013220"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintHorizontal_bias="0.042"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -261,7 +261,7 @@
             android:id="@+id/btn_google"
             android:layout_width="135dp"
             android:layout_height="77dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="28dp"
             android:background="@color/white"
             android:src="@drawable/googlebtn"
@@ -276,7 +276,7 @@
             android:background="@color/white"
             android:src="@drawable/fbbtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.838"
+            app:layout_constraintHorizontal_bias="0.455"
             app:layout_constraintStart_toEndOf="@+id/btn_google"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
