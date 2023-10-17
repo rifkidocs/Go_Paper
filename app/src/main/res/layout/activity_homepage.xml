@@ -354,7 +354,7 @@
         android:id="@+id/imageView5"
         android:layout_width="438dp"
         android:layout_height="307dp"
-        android:layout_marginTop="548dp"
+        android:layout_marginTop="544dp"
         android:src="@drawable/coverbanner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"

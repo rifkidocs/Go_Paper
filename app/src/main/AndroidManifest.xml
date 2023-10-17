@@ -13,13 +13,61 @@
         android:theme="@style/Theme.Pitstop"
         tools:targetApi="31">
         <activity
-            android:name=".WebView"
+            android:name=".Komentar"
             android:exported="false" />
         <activity
             android:name=".ArtikelEdukasi3"
             android:exported="false" />
+        <!--        <activity-->
+        <!--            android:name=".activity_community"-->
+        <!--            android:exported="false" />-->
+        <activity
+            android:name=".TipsTrick"
+            android:exported="false" />
+        <activity
+            android:name=".DetailKegiatan"
+            android:exported="false" />
+        <activity
+            android:name=".Kegiatan"
+            android:exported="false" />
+        <activity
+            android:name=".Umum"
+            android:exported="false" />
+        <activity
+            android:name=".Community"
+            android:exported="false" />
+        <activity
+            android:name=".PickUp3"
+            android:exported="false" />
+        <activity
+            android:name=".PickUp1"
+            android:exported="false" />
+        <activity
+            android:name=".MarketPlacePesananSelesai"
+            android:exported="false" />
+        <activity
+            android:name=".PickUp2"
+            android:exported="false" />
+        <activity
+            android:name=".Pick_Up_Home"
+            android:exported="false" />
+        <activity
+            android:name=".MarketplaceChatPenjualdanPembeli"
+            android:exported="false" />
+        <activity
+            android:name=".MarketplaceProfileTokoOrang"
+            android:exported="false" />
+        <activity
+            android:name=".NotifikasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
         <activity
             android:name=".ArtikelEdukasi2"
+            android:exported="false" />
+        <activity
+            android:name=".MarketPlaceKeranjangActivity"
             android:exported="false" />
         <activity
             android:name=".ArtikelEdukasi1"
@@ -59,7 +107,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
