@@ -13,6 +13,20 @@
         android:theme="@style/Theme.Pitstop"
         tools:targetApi="31">
         <activity
+            android:name=".CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UlasanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BeliActivity"
+            android:exported="false"
+            android:label="@string/title_activity_beli"
+            android:theme="@style/Theme.Pitstop" />
+        <activity
             android:name=".Homepage"
             android:exported="false" />
         <activity
