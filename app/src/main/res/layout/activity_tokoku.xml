@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TokokuActivity">
+
+    <ImageView
+        android:id="@+id/icon_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="306dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Cari barang di toko"
+        android:textSize="15dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toEndOf="@+id/icon_back"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconcari"
+        app:layout_constraintBottom_toBottomOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageButton
+        android:id="@+id/profil_toko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rounded_profile"
+        android:src="@drawable/profile_keruwsakan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_back" />
+
+        <TextView
+            android:id="@+id/keruwsakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppinmedium"
+            android:text="KERUWSAKAN"
+            android:textColor="@color/black"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintStart_toEndOf="@+id/profil_toko"
+            app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinmedium"
+            android:text="Aktif 5 menit yang lalu"
+            android:textColor="#787878"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintStart_toEndOf="@+id/profil_toko"
+            app:layout_constraintTop_toBottomOf="@+id/keruwsakan" />
+
+        <ImageView
+            android:id="@+id/lokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/location"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.255"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text" />
+
+        <TextView
+            android:id="@+id/jakarta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/poppinmedium"
+            android:text="Jakarta"
+            android:textColor="#787878"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.01"
+            app:layout_constraintStart_toEndOf="@+id/lokasi"
+            app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <Button
+        android:id="@+id/tambah_barang"
+        android:layout_width="98dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_button_stroke"
+        android:text="Tambah barang +"
+        android:textColor="#0D986A"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.680"
+        app:layout_constraintStart_toEndOf="@+id/keruwsakan"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppinmedium"
+        android:text="produk"
+        android:textColor="#0D986A"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toEndOf="@+id/text3"
+        app:layout_constraintTop_toBottomOf="@+id/profil_toko" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppinmedium"
+        android:text="1"
+        android:textColor="#787878"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.140"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil_toko" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinmedium"
+        android:text="ulasan"
+        android:textColor="#0D986A"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toEndOf="@+id/text5"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinmedium"
+        android:text="5.0"
+        android:textColor="#787878"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.140"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:fontFamily="@font/poppinmedium"
+        android:text="5.0/5.0"
+        android:textColor="#0D986A"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:text="⭐"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="361dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/bg_button_stroke_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/produk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinmedium"
+            android:text="PRODUK"
+            android:textColor="#0D986A"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="@+id/pisah"
+            app:layout_constraintHorizontal_bias="0.50"
+            app:layout_constraintStart_toStartOf="@+id/button"
+            app:layout_constraintTop_toTopOf="@+id/button" />
+
+        <TextView
+            android:id="@+id/pisah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinmedium"
+            android:text="|"
+            android:textColor="#787878"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="@+id/terbaru"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/produk2"
+            app:layout_constraintTop_toTopOf="@+id/button" />
+
+        <TextView
+            android:id="@+id/terbaru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinmedium"
+            android:text="TERBARU"
+            android:textColor="#787878"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="@+id/pisah2"
+            app:layout_constraintHorizontal_bias="0.50"
+            app:layout_constraintStart_toStartOf="@+id/pisah"
+            app:layout_constraintTop_toTopOf="@+id/button" />
+
+        <TextView
+            android:id="@+id/pisah2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinmedium"
+            android:text="|"
+            android:textColor="#787878"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="@+id/button"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="@+id/terbaru"
+            app:layout_constraintTop_toTopOf="@+id/button" />
+
+        <TextView
+            android:id="@+id/terlaris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinmedium"
+            android:text="TERLARIS"
+            android:textColor="#787878"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="@+id/button"
+            app:layout_constraintHorizontal_bias="0.50"
+            app:layout_constraintStart_toStartOf="@+id/pisah2"
+            app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button_produk"
+        android:layout_width="164dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/bg_button_stroke_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/produk_koran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/produkkoran"
+        app:layout_constraintBottom_toBottomOf="@+id/button_produk"
+        app:layout_constraintEnd_toEndOf="@+id/button_produk"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/button_produk"
+        app:layout_constraintTop_toTopOf="@+id/button_produk"
+        app:layout_constraintVertical_bias="0.1"/>
+
+    <TextView
+        android:id="@+id/text_produk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinmedium"
+        android:text="Kertas Koran Bekas Kiloan"
+        android:textColor="#272727"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button_produk"
+        app:layout_constraintEnd_toEndOf="@+id/button_produk"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintVertical_bias="0.105"
+        app:layout_constraintStart_toStartOf="@+id/button_produk"
+        app:layout_constraintTop_toBottomOf="@+id/produk_koran" />
+
+    <TextView
+        android:id="@+id/text_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinmedium"
+        android:text="Rp 10.000"
+        android:textColor="#0D986A"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button_produk"
+        app:layout_constraintEnd_toEndOf="@+id/button_produk"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintVertical_bias="0.17"
+        app:layout_constraintStart_toStartOf="@+id/button_produk"
+        app:layout_constraintTop_toBottomOf="@+id/text_produk" />
+
+    <TextView
+        android:id="@+id/text_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinmedium"
+        android:text="⭐⭐⭐⭐⭐ 37 Terjual"
+        android:textColor="#0D986A"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button_produk"
+        app:layout_constraintEnd_toEndOf="@+id/button_produk"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="@+id/button_produk"
+        app:layout_constraintTop_toBottomOf="@+id/text_harga"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_lokasi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinmedium"
+        android:text="Jakarta"
+        android:textColor="#787878"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button_produk"
+        app:layout_constraintEnd_toEndOf="@+id/button_produk"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="@+id/button_produk"
+        app:layout_constraintTop_toBottomOf="@+id/text_rating"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
