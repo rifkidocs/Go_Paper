@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Pitstop"
         tools:targetApi="31">
         <activity
+            android:name=".Komentar"
+            android:exported="false" />
+        <activity
+            android:name=".TipsTrick"
+            android:exported="false" />
+        <activity
+            android:name=".DetailKegiatan"
+            android:exported="false" />
+        <activity
+            android:name=".Kegiatan"
+            android:exported="false" />
+        <activity
+            android:name=".Umum"
+            android:exported="false" />
+        <activity
+            android:name=".Community"
+            android:exported="false" />
+        <activity
+            android:name=".activity_community"
+            android:exported="false" />
+        <activity
             android:name=".MarketPlaceBerandaActivity"
             android:exported="false" />
         <activity
