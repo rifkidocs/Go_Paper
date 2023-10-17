@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
+import android.widget.TextView
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var etEmail: EditText
@@ -16,6 +18,9 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnLoginToMain: Button = findViewById(R.id.button_login)
         btnLoginToMain.setOnClickListener(this)
+
+        val SignUp: TextView = findViewById(R.id.tvSignUp)
+        SignUp.setOnClickListener(this)
 
         etEmail = findViewById(R.id.et_email)
     }
@@ -28,6 +33,11 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
                 val intent = Intent(this@LoginActivity, MainActivity::class.java)
                 intent.putExtras(bundle)
+                startActivity(intent)
+            }
+            R.id.tvSignUp -> {
+
+                val intent = Intent(this@LoginActivity, SignUpActivity::class.java)
                 startActivity(intent)
             }
         }
