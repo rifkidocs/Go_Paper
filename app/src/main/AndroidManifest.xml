@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Pitstop"
         tools:targetApi="31">
         <activity
+            android:name=".WebView"
+            android:exported="false" />
+        <activity
+            android:name=".ArtikelEdukasi3"
+            android:exported="false" />
+        <activity
             android:name=".ArtikelEdukasi2"
             android:exported="false" />
         <activity
