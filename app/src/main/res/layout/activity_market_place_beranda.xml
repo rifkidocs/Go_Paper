@@ -202,7 +202,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/view9"
         android:layout_width="177dp"
         android:layout_height="235dp"
         android:layout_marginTop="400dp"
@@ -246,7 +245,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/view9"
         android:layout_width="177dp"
         android:layout_height="235dp"
         android:layout_marginTop="140dp"
@@ -319,7 +317,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/view9"
         android:layout_width="177dp"
         android:layout_height="235dp"
         android:layout_marginTop="140dp"
