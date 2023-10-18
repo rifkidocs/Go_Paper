@@ -21,7 +21,7 @@ class CheckoutActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when(v.id){
-            R.id.iv_exitchat -> {
+            R.id.iv_exit_checkout -> {
                 finish()
             }
             R.id.btnPesanan -> {

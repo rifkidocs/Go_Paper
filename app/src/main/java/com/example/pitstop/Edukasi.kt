@@ -6,11 +6,15 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.ImageView
 
 class Edukasi : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edukasi)
+
+        val HalamanAkun: ImageView = findViewById(R.id.HalamanAkun)
+        HalamanAkun.setOnClickListener(this)
 
         val home: Button = findViewById(R.id.buttonHome)
         home.setOnClickListener(this)
@@ -75,6 +79,10 @@ class Edukasi : AppCompatActivity(), View.OnClickListener {
 
             R.id.viewEdu3 -> {
                 val intent = Intent(this@Edukasi, ArtikelEdukasi3::class.java)
+                startActivity(intent)
+            }
+            R.id.HalamanAkun -> {
+                val intent = Intent(this@Edukasi, MyAccountActivity::class.java)
                 startActivity(intent)
             }
         }

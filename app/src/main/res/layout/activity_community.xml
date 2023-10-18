@@ -11,10 +11,10 @@
         android:id="@+id/back"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/leftarrow"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintHorizontal_bias="0.039"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -123,13 +123,14 @@
         app:layout_constraintTop_toBottomOf="@+id/view10">
 
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="140dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -142,16 +143,16 @@
                     app:layout_constraintHorizontal_bias="0.057"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/view10"
-                    app:srcCompat="@drawable/k1"/>
+                    app:srcCompat="@drawable/k1" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
                     android:fontFamily="@font/poppinsreguler"
                     android:text="Pembersihan Sungai bersama\nPandawara Grup"
-                    android:textSize="8sp"
                     android:textColor="@color/black"
-                    android:layout_marginStart="18dp"/>
+                    android:textSize="8sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -190,8 +191,8 @@
                     android:id="@+id/k"
                     android:layout_width="125dp"
                     android:layout_height="100dp"
-                    android:layout_marginTop="2dp"
                     android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
                     app:srcCompat="@drawable/k3" />
 
                 <TextView
@@ -227,12 +228,12 @@
         android:id="@+id/tseemore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="175dp"
+        android:layout_marginTop="196dp"
         android:fontFamily="@font/poppinmedium"
         android:text="see more"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kseemore" />
 
@@ -337,45 +338,42 @@
         android:id="@+id/buttonHome"
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/homenav"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.149"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947" />
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/buttonPickup"
         android:layout_width="38dp"
         android:layout_height="38dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/pickupnav"
         android:elevation="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.337"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.945" />
+        app:layout_constraintHorizontal_bias="0.354"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/buttonNews"
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:layout_marginBottom="33dp"
         android:background="@drawable/pottedplant"
         android:elevation="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.532"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947" />
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/buttonCommunity"
         android:layout_width="38dp"
         android:layout_height="38dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="33dp"
         android:background="@drawable/communitynav"
         android:elevation="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -387,7 +385,7 @@
         android:id="@+id/buttonMarketplace"
         android:layout_width="38dp"
         android:layout_height="38dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="33dp"
         android:background="@drawable/shopnav"
         android:elevation="13dp"
         app:layout_constraintBottom_toBottomOf="parent"

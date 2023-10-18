@@ -8,6 +8,7 @@
     tools:context=".Homepage"
     >
 
+<!--ACTIVITY INI MENGGUNAKAN LAYAR PIXEL 3XL-->
 
     <ImageView
         android:id="@+id/logo"
@@ -172,7 +173,7 @@
         android:text="Username"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toEndOf="@+id/textView17"
         app:layout_constraintTop_toTopOf="parent" />
 
