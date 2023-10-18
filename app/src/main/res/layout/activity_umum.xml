@@ -7,6 +7,7 @@
     tools:context=".Umum">
 
     <ImageView
+        android:id="@+id/back"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="44dp"
@@ -233,17 +234,17 @@
         android:id="@+id/editTextUmum"
         android:layout_width="348dp"
         android:layout_height="45dp"
-        android:layout_marginTop="645dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/rounded_card_marketplace"
-        android:hint="Ketik pesan..."
-        android:textSize="15sp"
         android:fontFamily="@font/poppinsreguler"
+        android:hint="Ketik pesan..."
         android:paddingStart="30dp"
         android:paddingEnd="20dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:layout_width="20dp"

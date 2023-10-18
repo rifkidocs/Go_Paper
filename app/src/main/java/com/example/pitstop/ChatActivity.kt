@@ -18,8 +18,7 @@ class ChatActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.iv_exitchat -> {
-                val intent = Intent(this@ChatActivity, MainActivity::class.java)
-                startActivity(intent)
+               finish()
             }
         }
     }

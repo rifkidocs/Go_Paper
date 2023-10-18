@@ -8,12 +8,13 @@
     tools:context=".Community">
 
     <ImageView
+        android:id="@+id/back"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/leftarrow"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.034"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,13 +22,12 @@
         android:id="@+id/textCommunity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/poppinsbold"
         android:text="Community"
         android:textColor="@color/black"
         android:textSize="22dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -272,6 +272,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/video1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/t1"
@@ -295,6 +296,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/video2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/t2"
@@ -325,15 +327,14 @@
         android:id="@+id/view8"
         android:layout_width="349dp"
         android:layout_height="69dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/rounded_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonHome"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/homenav"
@@ -345,7 +346,7 @@
         app:layout_constraintVertical_bias="0.947" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonPickup"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:background="@drawable/pickupnav"
@@ -358,7 +359,7 @@
         app:layout_constraintVertical_bias="0.945" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonNews"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/pottedplant"
@@ -371,7 +372,7 @@
         app:layout_constraintVertical_bias="0.947" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonCommunity"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginBottom="36dp"
@@ -383,7 +384,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonMarketplace"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginBottom="36dp"
@@ -391,8 +392,8 @@
         android:elevation="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.735"
-        app:layout_constraintStart_toEndOf="@+id/button2" />
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toEndOf="@+id/buttonPickup" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

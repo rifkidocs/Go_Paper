@@ -28,12 +28,12 @@
             android:id="@+id/logo"
             android:layout_width="142dp"
             android:layout_height="180dp"
-            android:layout_marginBottom="856dp"
             android:src="@drawable/logo3"
-            app:layout_constraintBottom_toBottomOf="parent"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.576"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/back"
@@ -42,7 +42,7 @@
             android:layout_marginTop="72dp"
             android:background="@drawable/backedu"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintHorizontal_bias="0.067"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -98,11 +98,11 @@
             android:id="@+id/logo2"
             android:layout_width="142dp"
             android:layout_height="180dp"
-            android:layout_marginBottom="340dp"
+            android:layout_marginBottom="84dp"
             android:src="@drawable/logo3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.531"
+            app:layout_constraintHorizontal_bias="0.576"
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView

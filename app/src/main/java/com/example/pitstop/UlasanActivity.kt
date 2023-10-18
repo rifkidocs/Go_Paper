@@ -18,8 +18,7 @@ class UlasanActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when(v.id) {
             R.id.iv_exitulasan -> {
-                val intent = Intent(this@UlasanActivity, BeliActivity::class.java)
-                startActivity(intent)
+               finish()
             }
         }
     }

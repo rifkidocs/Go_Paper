@@ -36,6 +36,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/chat"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="72dp"
@@ -46,6 +47,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/keranjang"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="72dp"
@@ -66,6 +68,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/back"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="16dp"
@@ -101,6 +104,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/gundam"
         android:layout_width="150dp"
         android:layout_height="115dp"
         android:layout_marginTop="408dp"

@@ -7,10 +7,10 @@
     tools:context=".DetailKegiatan">
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/back"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/leftarrow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.041"
@@ -21,7 +21,7 @@
         android:id="@+id/textKegiatan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/poppinsbold"
         android:text="Kegiatan"
         android:textColor="@color/black"
@@ -160,26 +160,26 @@
         android:id="@+id/editText"
         android:layout_width="280dp"
         android:layout_height="35dp"
-        android:layout_marginTop="650dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/e_comment"
         android:fontFamily="@font/poppinsreguler"
         android:hint="Komentar"
-        android:textSize="13sp"
         android:paddingStart="115dp"
         android:paddingEnd="20dp"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.549"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
         android:src="@drawable/comment"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.14"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/t_isitentang" />
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

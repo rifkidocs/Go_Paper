@@ -16,6 +16,9 @@
             android:name=".SaldoActivity"
             android:exported="false" />
         <activity
+            android:name=".TokokuActivity"
+            android:exported="false" />
+        <activity
             android:name=".TambahBarangActivity"
             android:exported="false" />
         <activity

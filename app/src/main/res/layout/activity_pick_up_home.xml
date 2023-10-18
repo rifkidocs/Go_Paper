@@ -328,18 +328,20 @@
         <View
             android:id="@+id/pickv"
             android:layout_width="357dp"
-            android:layout_height="64dp"
-            android:layout_marginBottom="16dp"
+            android:paddingBottom="20dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="44dp"
             android:background="@drawable/pick"
             android:fontFamily="@font/poppinsbold"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.425"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/info_tambah" />
 
         <TextView
             android:layout_width="104dp"
             android:layout_height="30dp"
-            android:layout_marginBottom="36dp"
+            android:layout_marginBottom="16dp"
             android:fontFamily="@font/poppinsbold"
             android:text="Lanjut"
             android:textColor="#FFFF"
@@ -352,7 +354,7 @@
         <TextView
             android:layout_width="153dp"
             android:layout_height="38dp"
-            android:layout_marginBottom="28dp"
+            android:layout_marginBottom="16dp"
             android:fontFamily="@font/poppinsreguler"
             android:text="Rp0 s.d Rp0
             EstimasiHarga/Kg"
@@ -360,7 +362,7 @@
             android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.217"
+            app:layout_constraintHorizontal_bias="0.193"
             app:layout_constraintStart_toStartOf="parent" />
 
 
