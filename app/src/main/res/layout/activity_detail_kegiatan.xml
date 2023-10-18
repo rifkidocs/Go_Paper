@@ -156,15 +156,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/t_tentang" />
 
-    <EditText
-        android:id="@+id/editText"
+    <Button
+        android:id="@+id/btn_komentar"
         android:layout_width="280dp"
         android:layout_height="35dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/e_comment"
         android:fontFamily="@font/poppinsreguler"
         android:hint="Komentar"
-        android:paddingStart="115dp"
+        android:paddingStart="10dp"
         android:paddingEnd="20dp"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -181,5 +181,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.18"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

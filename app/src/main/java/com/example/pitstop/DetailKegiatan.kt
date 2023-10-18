@@ -3,6 +3,7 @@ package com.example.pitstop
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.ImageView
 
 class DetailKegiatan : AppCompatActivity(), View.OnClickListener {
@@ -12,6 +13,12 @@ class DetailKegiatan : AppCompatActivity(), View.OnClickListener {
 
         val back: ImageView = findViewById(R.id.back)
         back.setOnClickListener(this)
+
+        val btnkomentar : Button = findViewById(R.id.btn_komentar)
+        btnkomentar.setOnClickListener {
+            val bottomSheetFragment = Komentar()
+            bottomSheetFragment.show(supportFragmentManager, bottomSheetFragment.tag)
+        }
     }
 
     override fun onClick(v: View) {
